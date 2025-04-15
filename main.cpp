@@ -4,10 +4,6 @@
 #include <netinet/in.h> // ntohl을 위해 필요
 
 int main(int argc, char* argv[]) {
-    if (argc < 2) {
-        std::cerr << "사용법: " << argv[0] << " <파일1> [파일2]...\n";
-        return 1;
-    }
 
     uint32_t total = 0;
 
